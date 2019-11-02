@@ -1,0 +1,74 @@
+.navbar{
+    background-color:lightblue;
+    padding-bottom: 2%;
+    margin-bottom: 10px;
+}
+
+.navbar h1
+{
+    margin: 0 0 0 0;
+}
+
+body{
+    margin:0 0 0 0;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+    padding-top: 5rem;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 16px; /* Increased text to enable scrolling */
+    padding: 0;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.presentation{
+  margin-left: 15px;
+}
+
+.presentation_image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+th,td{
+  border:1px solid black
+}
